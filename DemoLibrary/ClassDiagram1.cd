@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DemoLibrary.BaseEmployee">
+    <Position X="12" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>BaseEmployee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.CEO">
+    <Position X="13.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>CEO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.Employee">
+    <Position X="16.5" Y="1" Width="1.5" />
+    <InheritanceLine Type="DemoLibrary.BaseEmployee" ManuallyRouted="true">
+      <Path>
+        <Point X="13.125" Y="3" />
+        <Point X="13.125" Y="2.492" />
+        <Point X="14.5" Y="2.492" />
+        <Point X="14.5" Y="2.882" />
+        <Point X="17.25" Y="2.882" />
+        <Point X="17.25" Y="2.684" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.Manager">
+    <Position X="15.25" Y="3.5" Width="2.75" />
+    <InheritanceLine Type="DemoLibrary.Employee" ManuallyRouted="true">
+      <Path>
+        <Point X="17.25" Y="2.684" />
+        <Point X="17.25" Y="3.059" />
+        <Point X="16.885" Y="3.059" />
+        <Point X="16.885" Y="3.355" />
+        <Point X="16.625" Y="3.355" />
+        <Point X="16.625" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAQ=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DemoLibrary.IEmployee">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <FileName>IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IManaged" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IManaged.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DemoLibrary.IManager" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

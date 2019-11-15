@@ -11,18 +11,20 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            Manager accountingVP = new Manager();
+            //            Manager accountingVP = new Manager();
+            IManager accountingVP = new CEO();
 
             accountingVP.FirstName = "Emma";
             accountingVP.LastName = "Stone";
             accountingVP.CalculatePerHourRate(4);
 
-            Employee emp = new CEO();
+            BaseEmployee emp = new Employee();
 
             emp.FirstName = "Tim";
             emp.LastName = "Corey";
-            emp.AssignManager(accountingVP);
+            //emp.AssignManager(accountingVP);
             emp.CalculatePerHourRate(2);
+            //emp.FireSomeone();
 
             Console.WriteLine($"{ emp.FirstName }'s salary is ${ emp.Salary }/hour.");
 
