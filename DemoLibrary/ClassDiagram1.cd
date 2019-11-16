@@ -3,9 +3,12 @@
   <Class Name="DemoLibrary.BaseEmployee">
     <Position X="12" Y="3" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAGAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAQGAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAg=</HashCode>
       <FileName>BaseEmployee.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassProperty" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DemoLibrary.CEO">
@@ -51,6 +54,13 @@
       <FileName>Manager.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DemoLibrary.Class1">
+    <Position X="8" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class1.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Interface Name="DemoLibrary.IEmployee">
     <Position X="9.75" Y="0.5" Width="1.5" />

@@ -12,6 +12,12 @@ namespace DemoLibrary
         public string LastName { get; set; }
         public decimal Salary { get; set; }
 
+        public Class1 ClassProperty
+        {
+            get;
+            set;
+        } = null;
+
         public virtual void CalculatePerHourRate(int rank)
         {
             decimal baseAmount = 12.50M;

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BaseEmployee.cs" />
     <Compile Include="CEO.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="IEmployee.cs" />
     <Compile Include="IManaged.cs" />
